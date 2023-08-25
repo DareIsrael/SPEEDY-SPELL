@@ -20,7 +20,7 @@ function Home7 () {
           based on a history of dependable scheduled air-cargo service.</h2>
         <p>When commodities are imported into the nation, they occasionally arrive early. Other times, before reaching 
         the export headquarters, products need to be kept elsewhere for a while..</p>
-        <a href="/services"> <button>READ MORE</button></a>
+        <a href="/service"> <button>READ MORE</button></a>
         </div>
 
         <div className="home3-3">

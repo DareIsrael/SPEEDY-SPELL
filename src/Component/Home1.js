@@ -28,7 +28,7 @@ import react from "react"
           <div className="home1-2">
           <h1 className="homeh1">SPEEDY <span ref={el}></span></h1>
         <h6>CARGO HANDLING TO LAGOS AND ALL PARTS OF NIGERIA AND ACRA GHANA</h6>
-        <a href="/service"> <button>OUR SERVICES</button></a>
+        <a href="./service"> <button>OUR SERVICES</button></a>
         <h2></h2>
          
         
