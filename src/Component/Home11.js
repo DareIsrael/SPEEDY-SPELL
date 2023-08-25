@@ -6,7 +6,7 @@ function Home11 () {
 
         <div className="home-opacity"></div>
 
-<form action="/" method="post"  >
+<form  >
 <div className="home11-0">
 <h1>Get a quick offer</h1>
 
