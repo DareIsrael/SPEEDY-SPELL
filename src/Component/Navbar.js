@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Outlet, Link } from "react-router-dom";
-import { FaAlignJustify, FaTimes } from "react-icons/fa";
+// import { FaAlignJustify, FaTimes } from "react-icons/fa";
 import { Icon } from '@iconify/react';
 import Login from "./Login";
 
@@ -85,7 +85,7 @@ function Navbar () {
         
           <div onClick={nav2} >
          <div className="navIcon" onClick={nav}  >
-         {icon ? <FaTimes />  : <FaAlignJustify /> }
+         {/* {icon ? <FaTimes />  : <FaAlignJustify /> } */}
          
          </div>
         
