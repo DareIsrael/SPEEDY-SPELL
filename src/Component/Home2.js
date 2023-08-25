@@ -17,7 +17,7 @@ function Home2 () {
         <h1>OUR SOLUTIONS</h1>
         <p className="line"></p>
         <h2>Logistics through innovation, dedication and technology</h2>
-        <div className="icons">
+        <div data-aos="fade-right" className="icons">
             <div className="eachicons" >
             <a href="/service"><Icon className="img" icon="eos-icons:container-outlined" /></a>
             

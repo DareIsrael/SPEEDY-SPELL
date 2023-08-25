@@ -4,9 +4,36 @@ import { Icon } from '@iconify/react';
 function Trucking2 () {
 
     const [kmPrice, setKwprice] = useState(0);
+    const [select1, setSelect1] = useState ();
+    // const [select2, setSelect2] = useState ();
+    const [select3, setSelect3] = useState ();
+
      function kmP (event) {
         setKwprice(event.target.value)
      }
+
+     function Select1 (event) {
+        setSelect1 (event.target.value)
+     }
+
+    //  function Select2 () {
+    //     if (select1 === "20ft") {
+    //         setSelect2 (50)
+    //     } else if (select1 === "40ft") {
+    //         setSelect2 (100)
+    //     } else if (select1 === "45ft") {
+    //         setSelect2 (200)
+    //     } else if (select1 === "53ft"){
+    //         setSelect2 (250)
+    //     }
+            
+    //      }
+
+        //  function Select3 () {
+        //     setSelect3 (kmPrice + select1) 
+        //  }
+               
+   
 
     return (
           <div className="truck">
@@ -18,6 +45,7 @@ function Trucking2 () {
                 for high level overviews and iterative approaches.</p>
                 <div className="truck-3">
                     <form action="/" method="post">
+                    
                         <label>Truck Type</label><br></br>
                         <select>
                             <option>Select...</option>
@@ -39,13 +67,13 @@ function Trucking2 () {
                      <label>Distance(km)</label> <br></br>
                      <div className="truck-input">
                      <span>0(km)</span>
-                     <input type="range" min="20-40" max="1000" onChange={kmP} value={kmPrice}></input>
+                     <input type="range"  min="20-40" max="1000" onChange={kmP} value={kmPrice}></input>
                      <span>{kmPrice}(km)</span>
                      </div>
                      <div className="truck-price">
                         
                         <div className="truck-price2">
-                        <p><span className="truck-span">Total</span> ${kmPrice}.00</p>
+                        <p><span className="truck-span">Total</span> ${kmPrice}</p>
                         </div>
                      </div>
                      

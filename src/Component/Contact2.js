@@ -26,11 +26,14 @@ function Contact2 () {
             <p> Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
              Credibly innovate granular sources. </p>
              <p> Seamlessly empower fully researched growth UK</p>
+             <div className="con2-2">
              <h6> Phone: +44 7845 134587</h6>
              <h6> Phone: +44 7438 079290</h6>
              <h6> Landline: 02036682258</h6>
              <h6> Email:- bisiolusola99@gmail.com</h6>
              <h6> Email:- jonas@speedyspellcargo.co.uk</h6>
+             </div>
+             
            
              <div className="servCon-3">
             <Icon className="Conicon" icon="ic:outline-facebook" />

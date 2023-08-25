@@ -9,8 +9,8 @@ function AirCargo1 () {
         <a href="/">HOME ▸</a> <a href="/service">SERVICES</a>
         <h1>Air Cargo Cost Calculator</h1>
         <p className="line"></p>
-        <p>Any item that will be transported in an airplane is considered air cargo.
-         Air freight, air express, and airmail are all types of air cargo. </p>
+        <p>Any item that will be transported in an airplane is considered air cargo. 
+        Air freight, air express, and airmail are all types of air cargo. </p>
         </div>
     </div>
     )

@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 
 
 function Home4 () {
+    
     useEffect(() => {
         AOS.init({duration: 1000 });
         AOS.refresh();

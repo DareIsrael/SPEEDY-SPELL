@@ -9,8 +9,8 @@ function Couriercargo1 () {
         <a href="/">HOME ▸</a> <a href="/service">SERVICES</a>
         <h1>Courier Cargo Cost Calculator</h1>
         <p className="line"></p>
-        <p>Our organization has been given permission by the
-         local transportation administration to forward domestic shipments. </p>
+        <p>Our company Ocean Cargo service offers the
+         best express delivery service, regardless of distance. </p>
         </div>
     </div>
     )

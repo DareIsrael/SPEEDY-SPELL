@@ -14,18 +14,34 @@ function AirCargo2 () {
               <div className="truck-2">
                 <h1>Get your quote instantly</h1>
                 <p className="line"></p>
-                <p>Providing leverage agile frameworks to robust synopsis
-                for high level overviews and iterative approaches.</p>
+                <p>Offering robust synopses using agile
+                 frameworks for high-level overviews and iterative techniques.</p>
                 <div className="truck-3">
                     <form action="/" method="post">
-                        <label>Truck Type</label><br></br>
+                        <label>Height (cm)</label><br></br>
                         <select>
-                            <option>Select...</option>
-                            <option>20ft</option>
-                            <option>40ft</option>
-                            <option>45ft</option>
-                            <option>53ft</option>
-                        </select> <br></br>
+                        <option>Select...</option>
+                        <option>100cm+</option>
+                        <option>200cm+</option>
+                        <option>500cm+</option>
+                        <option>800cm+</option>
+                     </select><br></br>
+                        <label>Width(cm)</label> <br></br>
+                        <select>
+                        <option>Select...</option>
+                        <option>100cm+</option>
+                        <option>200cm+</option>
+                        <option>500cm+</option>
+                        <option>800cm+</option>
+                     </select><br></br>
+                        <label>Depth</label><br></br>
+                        <select>
+                        <option>Select...</option>
+                        <option>100cm+</option>
+                        <option>200cm+</option>
+                        <option>500cm+</option>
+                        <option>800cm+</option>
+                     </select><br></br>
                     
                      <label> Commodity Type</label>  <br></br>
                      <select>

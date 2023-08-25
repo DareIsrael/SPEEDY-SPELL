@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 function Service8 () {
     return (
-        <div className="home2">
+        <div className="serv-8">
             <div className="icons">
             <div className="eachicons" >
             <Icon className="img" icon="eos-icons:container-outlined" />

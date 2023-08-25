@@ -14,11 +14,11 @@ function OceanCargo2 () {
               <div className="truck-2">
                 <h1>Get your quote instantly</h1>
                 <p className="line"></p>
-                <p>Providing leverage agile frameworks to robust synopsis
-                for high level overviews and iterative approaches.</p>
+                <p>High level leverage agile frameworks to provide a robust
+                  synopsis for high level overviews approaches.</p>
                 <div className="truck-3">
                     <form>
-                        <label>Truck Type</label><br></br>
+                        <label>Container Type</label><br></br>
                         <select>
                             <option>Select...</option>
                             <option>20ft</option>

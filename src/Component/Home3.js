@@ -1,17 +1,21 @@
 import react from "react"
 import { motion } from "framer-motion"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react"
 
 function Home3 ()  {
+
+   useEffect(() => {
+        AOS.init({duration: 1000 });
+        AOS.refresh();
+      }, []);
     return (
         <div className="home3">
 
             <div className="home3-1">
             <div className="home3-2">
-            <motion.h1 
-            initial = {{ x: -250 }}
-            animate = {{ x: -10 }}
-            transition={{ delay: 0.2 }}
-            >WELCOME</motion.h1>
+            <h1 data-aos="fade-right" >WELCOME</h1>
             <p className="line"></p>
             <h2>All of our investments and efforts are focused on providing superior solutions. </h2>
             <p>When commodities are imported into the nation, they occasionally arrive early. Other times,

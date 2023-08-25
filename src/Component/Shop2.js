@@ -1,15 +1,25 @@
 import react, { useState } from "react";
+import Cart from "./Cart";
+import Cart2 from "./Cart2";
 
 function Shop2() {
 
     const [drag, setDrag] = useState (0);
-    // const [drag2, setDrag2] = useState ();
+     const [drag2, setDrag2] = useState ("No products in the cart.");
+     const [drag3, setDrag3] = useState("")
     function DragPrice (event) {
         return (
             setDrag (event.target.value)
         )
     }
+    
+    function addup () {
+        setDrag2(oldList => [...oldList, <Cart />]);
+    }
 
+    function addup2 () {
+     setDrag3 (oldList => [...oldList, <Cart2 /> ]);
+    }
 
 
     return (
@@ -25,7 +35,7 @@ function Shop2() {
             <h1>Daf, 7.5 tones</h1>
             <p className="line"></p>
             <p>#12,000,000</p>
-            <button>ADD TO CART</button>
+            <button onClick={addup2}>ADD TO CART</button>
             </div>
 
             <div className="shop2-5">
@@ -34,7 +44,7 @@ function Shop2() {
             <h1>Toyota Ice</h1>
             <p className="line"></p>
             <p>#6,500,000</p>
-            <button>ADD TO CART</button>
+            <button onClick={addup}>ADD TO CART</button>
             </div>
 
             <div className="shop2-5">
@@ -109,7 +119,8 @@ function Shop2() {
                <div className="shop2-8">
                <h1>Cart</h1>
                <p className="line"></p>
-               <p>No products in the cart.</p>
+                <p>{drag2}</p>
+                <p>{drag3}</p>
                </div>
 
                <div className="shop2-8">
@@ -129,34 +140,34 @@ function Shop2() {
              
 
                <div className="shop2-10">
-               <img src="images/laptop.jpeg"></img>
+               <img src="images/cat2.jpeg"></img>
                <div className="shop-11">
-               <h2>Bright</h2>
+               <h2>Toyota Ice</h2>
                <p className="line"></p>
                <span className="star">★★★</span><span>☆☆</span>
-               <p>$20.00</p>
+               <p>$6,500,000.00</p>
                </div>
                <hr></hr>
                </div>
 
                <div className="shop2-10">
-               <img src="images/laptop.jpeg"></img>
+               <img src="images/cat5.jpeg"></img>
                <div className="shop-11">
-               <h2>Bright</h2>
+               <h2>Daf, 7.5 tones</h2>
                <p className="line"></p>
                <span className="star">★★★★</span><span>☆</span>
-               <p>$20.00</p>
+               <p>$12,000000</p>
                </div>
                <hr></hr>
                </div>
 
                <div className="shop2-10">
-               <img src="images/laptop.jpeg"></img>
+               <img src="images/cat4.jpeg"></img>
                <div className="shop-11">
-               <h2>Bright</h2>
+               <h2>Fold Transist Van</h2>
                <p className="line"></p>
                <span className="star">★★★★</span><span>☆</span>
-               <p>$20.00</p>
+               <p>$4,500,000</p>
                </div>
                <hr></hr>
                </div>

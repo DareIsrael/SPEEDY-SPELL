@@ -1,12 +1,20 @@
 import react from "react"
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react"
 
 function Home7 () {
+    useEffect(() => {
+        AOS.init({duration: 1000 });
+        AOS.refresh();
+      }, []);
+    
     return (
         <div className="home3">
 
         <div className="home3-1">
         <div className="home3-2">
-        <h1>OUR FLEET</h1>
+        <h1 data-aos="fade-right">OUR FLEET</h1>
         <p className="line"></p>
         <h2>We provide a robust express network through its cooperation, which is 
           based on a history of dependable scheduled air-cargo service.</h2>
