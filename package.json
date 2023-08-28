@@ -1,5 +1,5 @@
 {
-  "proxy": "https://speedy-backend-try.vercel.app/",
+  "proxy": "http://localhost:4001",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,

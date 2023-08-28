@@ -10,11 +10,14 @@ function Home11 () {
 
   const handleSubmit = async (e) => {
       e.preventDefault()
+
+      speedy-backend-try.vercel.app
+
       
 
       const cargo = {name, truckload, email, commodity}
 
-      const response = await fetch ("/api/cargo", {
+      const response = await fetch ("speedy-backend-try.vercel.app/api/cargo", {
           method: 'POST',
           body: JSON.stringify(cargo),
           headers: {
